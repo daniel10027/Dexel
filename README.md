@@ -6,7 +6,7 @@ Send Data From Flutetr App To Exel Sheet
 
 # Configuration 
 
-### 1- Connect to Google Sheet 
+### 1- Connect to Google Sheet  (Make sur that the used email is a gmail.copm email )
 
 ### 2- Create a Blank Sheet with Column name ( In our case we have four field (nom, email, contact, feedback))
 
@@ -40,13 +40,19 @@ function doGet(request) {
 }
 
 ```
-### 6 - Deploy your Sheet Apps Code
+### 6 - Load doGet() function
+
+ - Above the editor click on Run 
+ - Allow acces to the App
+ 
+### 7 - Deploy your Sheet Apps Code
 
 - On the Right_Top of the App Script Editor click on Deploy > New Deployment 
 - Give Deploy Name 
 - Select Web App type and deploy
+- Allow all acces to anyone that have the link
 - Copy the deployment url and paste it in lib > models > controller.dart in URL section
 
-### 7 - Make Your Flutter Run and Enjoy
+### 8 - Make Your Flutter Run and Enjoy
 
 # Dexel

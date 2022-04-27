@@ -43,6 +43,7 @@ function doGet(request) {
 ### 6 - Load doGet() function
 
  - Above the editor click on Run 
+ - If you have  an Function Error Click on run again
  - Allow acces to the App
  
 ### 7 - Deploy your Sheet Apps Code
@@ -51,7 +52,9 @@ function doGet(request) {
 - Give Deploy Name 
 - Select Web App type and deploy
 - Allow all acces to anyone that have the link
-- Copy the deployment url and paste it in lib > models > controller.dart in URL section
+- Copy the deployment url and paste it in your navigatr (it must show reponse : {"status":"SUCCESS"})
+- if the last action is ok do next , if not resume all the previous process
+- Copy the deployment url and paste it in ib > models > controller.dart in URL section
 
 ### 8 - Make Your Flutter Run and Enjoy
 
